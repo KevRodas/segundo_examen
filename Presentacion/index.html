@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tarjeta de Presentación</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(45deg, #FF5733, #FFC300, #33FF57);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .card {
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s;
+      color: #333;
+    }
+    
+    .card:hover {
+      transform: scale(1.05);
+    }
+    
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block;
+      background: url('https://via.placeholder.com/100'); 
+      background-size: cover;
+      background-position: center;
+    }
+    
+
+    .name {
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Brush Script MT', cursive;
+      color: #ffffff; 
+      text-align: center;
+    }
+    
+    .job-title {
+      font-size: 18px;
+    }
+    
+    .contact {
+      font-size: 14px;
+      margin-top: 20px;
+    }
+    
+    .contact img {
+      width: 14px;
+      height: 14px;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+    
+    .social-links a {
+      display: inline-block;
+      margin: 0 12px;
+      color: #333;
+      text-decoration: none;
+      font-size: 24px; 
+      transition: color 0.3s ease;
+    }
+    
+    .social-links a:hover {
+      color: #FF5733;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: radial-gradient(circle, #333 50%, #FF5733 50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    
+    <div class="info">
+      <div class="circle">
+        <span class="name">Kevin Rodas</span>
+      </div>
+      
+      <li>Web Designer</li>
+      <li>Desarrollador Frontend</li>
+      <li>Diseñador Gráfico</li>
+      <li>Especialista en UX/UI</li>
+    </ul>
+    <li class="title">Tecnologías:</li>
+    
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Adobe Illustrator</li>
+    </ul>
+      
+      <div class="contact">
+        <img src="./images/Phone_icon.png" alt="phone"> 4821-7618
+        <img src="./images/mail.png" alt="email"> Kevinrodas166@gmail.com
+        <img src="./images/site.png" alt="website"> Kevinrodas.com
+      </div>
+      
+  
+    </div>
+  </div>
+</body>
+</html>
